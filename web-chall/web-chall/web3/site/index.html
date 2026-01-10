@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Lotus | Holistic Wellness Spa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Zen Lotus.</a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><button class="btn-book" id="navBookBtn">Book Appointment</button></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-subtitle">Welcome to Tranquility</span>
+            <h1>Harmony for Body & Soul</h1>
+            <p>Discover a sanctuary where ancient healing meets modern luxury.</p>
+            <button class="btn-primary" id="heroBookBtn">Begin Your Journey</button>
+        </div>
+    </section>
+
+    <section id="experiences" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curated Experiences</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Massage">
+                    <div class="card-body">
+                        <h3>Deep Tissue Massage</h3>
+                        <p>Release chronic tension with slow strokes and deep finger pressure.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Facial">
+                    <div class="card-body">
+                        <h3>Organic Glow Facial</h3>
+                        <p>Botanical extracts tailored to your skin type for a radiant complexion.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sauna">
+                    <div class="card-body">
+                        <h3>Thermal Suite Access</h3>
+                        <p>Detoxify in our Himalayan salt sauna and herbal steam rooms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="philosophy" class="section bg-light">
+        <div class="container split-layout">
+            <div class="text-block">
+                <h2>Our Philosophy</h2>
+                <p>At Zen Lotus, we believe wellness is not a luxury, but a necessity. Our therapists are artisans of relaxation, dedicated to restoring your balance through mindful touch and sustainable practices.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://images.unsplash.com/photo-1600334129128-685c542e1261?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Spa Detail">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Zen Lotus.</h3>
+                <p>Restoring balance since 2010.</p>
+            </div>
+            <div class="footer-info">
+                <p>108 Serenity Lane, Wellness City</p>
+                <p>contact@zenlotus.com</p>
+                <p>+1 (555) 000-9999</p>
+<!-- CTF{different_ -->
+            </div>
+        </div>
+    </footer>
+
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book Your Session</h2>
+            <form id="bookingForm">
+                <input type="text" placeholder="Full Name" disabled>
+                <input type="email" placeholder="Email Address" disabled>
+                <select>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
